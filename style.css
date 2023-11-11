@@ -1,0 +1,114 @@
+html{
+  scroll-behavior:smooth;
+  }
+  
+  /* Set some default styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: lightblue;
+  }
+  
+  header {
+    background-image: url(https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  h1 {
+    font-size: 85px;
+ margin-top:  10px;
+ font-weight: 500;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 60pxpx;
+  }
+  
+  #about,
+  #features,
+  #contact {
+    margin-top: 150px;
+  }
+  form{
+    padding-right: 25rem;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4rem ;
+    margin-left: auto;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  border: none;
+  outline: none;
+background: #f2f2f2 ;
+  }
+  
+  form button {
+    background-color: #00137e;
+    color: #fff;
+    padding: 1rem ;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  /* Add your custom CSS styles here */
+
+#about{
+
+  padding: 50px 10%;
+  line-height: 30px;
+}
+#about img{
+  margin-top: 50px;
+}
+#contact{
+  padding: 50px 7%;
+  line-height: 30px;
+}
+
+  
